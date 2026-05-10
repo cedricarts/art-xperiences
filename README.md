@@ -24,11 +24,11 @@
 
 ## What's on the Page
 
-- **Hero** — brand statement and tagline
-- **Experience cards** — one per occasion, with live/coming-soon status badges and 3D hover tilt
-- **How it works** — three-step explainer
-- **Stats bar** — platform highlights
-- **Footer** — links to all experiences, ArtWear, and Cedric Arts
+- **Hero** - brand statement and tagline
+- **Experience cards** - one per occasion, with live/coming-soon status badges and 3D hover tilt
+- **How it works** - three-step explainer
+- **Stats bar** - platform highlights
+- **Footer** - links to all experiences, ArtWear, and Cedric Arts
 
 ---
 
@@ -36,7 +36,7 @@
 
 | | |
 |---|---|
-| Stack | Plain HTML, CSS, JavaScript — zero frameworks |
+| Stack | Plain HTML, CSS, JavaScript - zero frameworks |
 | Fonts | Playfair Display + DM Sans (Google Fonts) |
 | Effects | Canvas star field, CSS glassmorphism, JS 3D card tilt |
 | Hosting | GitHub Pages |
@@ -48,7 +48,9 @@
 
 ```
 art-xperiences/
-└── index.html       # Entire site — self-contained single file
+└── index.html       # HTML (Structure)
+└── style.css        # CSS (Styling and layout)
+└── script.js        # JS file (Functionality)
 ```
 
 ---
@@ -78,7 +80,7 @@ When a new experience is ready:
 ## Related Projects
 
 - [Birthday Experience](https://cedricarts.github.io/birthday-experience/#/)
-- [Mother's Day Experience](#) *(add URL)*
+- [Mother's Day Experience](https://cedricarts.github.io/mothers-day-xp/)
 - [ArtWear](https://ca-artwear.netlify.app/)
 - [Cedric Arts / Horizon Synergy](https://cedricarts.github.io)
 
