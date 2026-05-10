@@ -8,7 +8,7 @@
 
 ## Live Site
 
-**[→ art-xperiences on GitHub Pages](#)** *(update this once deployed)*
+[https://cedricarts.github.io/art-xperiences/]
 
 ---
 
