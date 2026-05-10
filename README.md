@@ -2,7 +2,7 @@
 
 > Cinematic gifting experiences for the moments that matter.
 
-**Art Xperiences** is the central landing page for a growing suite of personalised, link-based gifting experiences built by [Cedric Arts](https://cedricarts.github.io) under [Horizon Synergy](https://cedricarts.github.io). Each experience lets you write a personal message, generate a private shareable link, and deliver something that actually feels like a gift — no apps, no payments, no accounts.
+**Art Xperiences** is the central landing page for a growing suite of personalised, link-based gifting experiences built by [Cedric Arts](https://cedricarts.github.io) under [ArtWear](https://ca-artwear.netlify.app). Each experience lets you write a personal message, generate a private shareable link, and deliver something that actually feels like a gift — no apps, no payments, no accounts.
 
 ---
 
@@ -82,8 +82,9 @@ When a new experience is ready:
 - [Birthday Experience](https://cedricarts.github.io/birthday-experience/#/)
 - [Mother's Day Experience](https://cedricarts.github.io/mothers-day-xp/)
 - [ArtWear](https://ca-artwear.netlify.app/)
-- [Cedric Arts / Horizon Synergy](https://cedricarts.github.io)
+- [Cedric Arts](https://cedricarts.github.io)
+- [Horizon Synergy](https://horizon-synergy.github.io)
 
 ---
 
-*Built by Cedric Arts · Horizon Synergy · Free forever.*
+*Built by Cedric Arts · Horizon Synergy || ArtWear · Free forever.*
