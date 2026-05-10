@@ -8,7 +8,7 @@
 
 ## Live Site
 
-https://cedricarts.github.io/art-xperiences/
+[Art Xperiences](https://cedricarts.github.io/art-xperiences/)
 
 ---
 
@@ -16,9 +16,9 @@ https://cedricarts.github.io/art-xperiences/
 
 | Experience | Status | Link |
 |---|---|---|
-| 🎂 Birthday Experience | ✅ Live | [cedricarts.github.io/birthday-experience](https://cedricarts.github.io/birthday-experience/#/) |
-| 🌸 Mother's Day — A Gift for Mom | ✅ Live | *(add your deployed URL)* |
-| 👔 Father's Day — A Gift for Dad | 🔜 Coming June 2025 | — |
+| 🎂 Birthday Experience | ✅ Live | [Birthday Xperience](https://cedricarts.github.io/birthday-experience/#/) |
+| 🌸 Mother's Day — A Gift for Mom | ✅ Live | [Mother's Day Xperience]( https://cedricarts.github.io/mothers-day-xp/) |
+| 👔 Father's Day — A Gift for Dad | 🔜 Coming June 2026 | — |
 
 ---
 
