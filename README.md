@@ -8,7 +8,7 @@
 
 ## Live Site
 
-[https://cedricarts.github.io/art-xperiences/]
+https://cedricarts.github.io/art-xperiences/
 
 ---
 
