@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#080810" />
+  <meta name="description" content="Art Xperiences — cinematic gifting experiences for the moments that matter." />
+  <meta property="og:title" content="Art Xperiences" />
+  <meta property="og:description" content="Cinematic gifting experiences for the moments that matter." />
+  <title>Art Xperiences</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+
+  <canvas id="star-canvas" aria-hidden="true"></canvas>
+
+  <div class="page">
+
+    <!-- NAV -->
+    <nav role="navigation" aria-label="Main navigation">
+      <a href="#" class="nav-brand" aria-label="Art Xperiences home">
+        <span class="nav-wordmark">Art Xperiences</span>
+        <span class="nav-tagline">by ArtWear</span>
+      </a>
+      <div class="nav-links">
+        <a href="#experiences" class="nav-link">Experiences</a>
+        <a href="#how" class="nav-link">How it works</a>
+        <a href="https://ca-artwear.netlify.app/" target="_blank" rel="noopener noreferrer" class="nav-cta">Visit ArtWear →</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero">
+      <p class="hero-eyebrow">Art Xperiences</p>
+      <h1 class="hero-title">
+        Gifts that<br><em>actually feel</em><br>like something.
+      </h1>
+      <p class="hero-sub">
+        Cinematic, personalised experiences you send as a link.
+        No apps. No payments. Just something real they'll remember.
+      </p>
+      <div class="hero-divider" aria-hidden="true"></div>
+    </section>
+
+    <!-- EXPERIENCES -->
+    <section id="experiences" aria-label="Experiences">
+      <div class="section-label">
+        <span class="section-label-text">Experiences</span>
+        <span class="section-label-line" aria-hidden="true"></span>
+      </div>
+
+      <div class="cards-grid" role="list">
+
+        <!-- Birthday -->
+        <a
+          href="https://cedricarts.github.io/birthday-experience/#/"
+          class="xp-card"
+          data-accent="birthday"
+          role="listitem"
+          aria-label="Birthday Experience — live"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="card-orb" aria-hidden="true"></div>
+          <div class="card-body">
+            <span class="card-icon" aria-hidden="true">🎂</span>
+            <span class="card-occasion">Birthday</span>
+            <h2 class="card-title">The Birthday<br><em>Experience</em></h2>
+            <p class="card-desc">
+              Send a fully animated birthday surprise — personalised with their name, your message, and a celebration they won't forget.
+            </p>
+            <div class="card-footer">
+              <span class="card-badge live">● Live</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Mother's Day -->
+        <a
+          href="https://cedricarts.github.io/mothers-day-experience/"
+          class="xp-card"
+          data-accent="mothers"
+          role="listitem"
+          aria-label="Mother's Day Experience — live"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="card-orb" aria-hidden="true"></div>
+          <div class="card-body">
+            <span class="card-icon" aria-hidden="true">🌸</span>
+            <span class="card-occasion">Mother's Day</span>
+            <h2 class="card-title">A Gift<br><em>for Mom</em></h2>
+            <p class="card-desc">
+              A cinematic message experience with themed confetti, elegant animations, and a private link only she can open. Tell her what you never say out loud.
+            </p>
+            <div class="card-footer">
+              <span class="card-badge live">● Live</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Father's Day -->
+        <div
+          class="xp-card disabled"
+          data-accent="fathers"
+          role="listitem"
+          aria-label="Father's Day Experience — coming soon"
+          tabindex="0"
+        >
+          <div class="card-orb" aria-hidden="true"></div>
+          <div class="card-body">
+            <span class="card-icon" aria-hidden="true">👔</span>
+            <span class="card-occasion">Father's Day</span>
+            <h2 class="card-title">A Gift<br><em>for Dad</em></h2>
+            <p class="card-desc">
+              The same cinematic care, built for the man who held everything together quietly. Say it properly this time.
+            </p>
+            <div class="card-footer">
+              <span class="card-badge soon">Coming soon</span>
+              <span class="card-arrow" aria-hidden="true">⋯</span>
+            </div>
+          </div>
+          <div class="card-soon-overlay" aria-hidden="true">
+            <span class="card-soon-tag">June 2025</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <div class="stats-row" role="region" aria-label="Platform stats">
+      <div class="stat">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Experiences</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">0</div>
+        <div class="stat-label">App downloads needed</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">Free</div>
+        <div class="stat-label">Always</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">2min</div>
+        <div class="stat-label">To send a gift</div>
+      </div>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="how-section" aria-label="How it works">
+      <div class="section-label">
+        <span class="section-label-text">How it works</span>
+        <span class="section-label-line" aria-hidden="true"></span>
+      </div>
+      <div class="how-grid">
+        <div class="how-step">
+          <div class="step-num" aria-hidden="true">01</div>
+          <h3 class="step-title">Pick an experience</h3>
+          <p class="step-desc">Choose the occasion — birthday, Mother's Day, Father's Day. Each one has its own cinematic feel.</p>
+        </div>
+        <div class="how-step">
+          <div class="step-num" aria-hidden="true">02</div>
+          <h3 class="step-title">Write your message</h3>
+          <p class="step-desc">Type their name, your name, and your message. Use a template if you need a starting point — then make it yours.</p>
+        </div>
+        <div class="how-step">
+          <div class="step-num" aria-hidden="true">03</div>
+          <h3 class="step-title">Send the link</h3>
+          <p class="step-desc">Copy the private link and send it on WhatsApp, iMessage, wherever. They open it and experience the moment.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+      <span class="footer-brand">Art Xperiences</span>
+      <div class="footer-links-group">
+        <a href="https://ca-artwear.netlify.app/" target="_blank" rel="noopener noreferrer" class="footer-link accent">ArtWear ↗</a>
+        <a href="https://cedricarts.github.io" target="_blank" rel="noopener noreferrer" class="footer-link">Cedric Arts ↗</a>
+        <a href="https://cedricarts.github.io/birthday-experience/#/" target="_blank" rel="noopener noreferrer" class="footer-link">Birthday Xp ↗</a>
+        <a href="https://cedricarts.github.io/mothers-day-experience/" target="_blank" rel="noopener noreferrer" class="footer-link">Mother's Day Xp ↗</a>
+      </div>
+      <p class="footer-copy">© 2026 ArtWear · Built by Cedric Arts · Free forever.</p>
+    </footer>
+
+  </div><!-- /page -->
+
+  <script src="script.js">
+    
+  </script>
+
+</body>
+</html>
